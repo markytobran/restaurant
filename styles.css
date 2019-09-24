@@ -1,0 +1,642 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/******************************Sectiona*************************************/
+.sectiona {
+  height: 100vh;
+  color: white;
+  background: url("img/resto1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bon {
+  padding: 15px;
+}
+
+.sectiona-button li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.sectiona hr {
+  background: white;
+  height: 1px;
+}
+
+.sectiona p {
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+#sectiona {
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.container h1 {
+  font-size: 50px;
+  letter-spacing: 0.5rem;
+}
+
+.sectiona-button button {
+  background: none;
+  font-size: 18px;
+  border: 2px white solid;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 250px;
+}
+
+/******************************Sectionb*************************************/
+
+#sectionb {
+  margin-top: 70px;
+  width: auto;
+  height: 800px;
+}
+
+#sectionb img {
+  height: 300px;
+  width: 374px;
+  margin-left: 50px;
+}
+
+#firstimg {
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+
+#secondimg {
+  position: relative;
+}
+.bon {
+  border: 1px solid black;
+  width: 1000px;
+}
+
+.bon button {
+  margin-top: 30px;
+  background: #033b49;
+  font-size: 14px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 100px;
+}
+
+.bonp {
+  font-size: 72px;
+  letter-spacing: 1.5rem;
+  font-weight: lighter;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+/******************************Sectionc*************************************/
+.sectionc {
+  height: 450px;
+  width: 100%;
+  padding: 0;
+  background: url("img/soup.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+/******************************Sectiond*************************************/
+.sectiond {
+  height: 1100px;
+  padding-top: 40px;
+}
+.sectiond h1 {
+  font-weight: lighter;
+  font-size: 70px;
+  margin-bottom: 64px;
+  letter-spacing: 1.5rem;
+  margin-top: 17px;
+}
+
+.rows {
+  border: 1px solid black;
+  width: 550px;
+}
+
+#rowone,
+#rowtwo,
+#rowthree,
+#rowfour {
+  padding: 15px;
+}
+
+#rowtwo h6,
+#rowthree h6,
+#rowfour h6 {
+  letter-spacing: 0.2rem;
+}
+
+#rowtwo p,
+#rowthree p,
+#rowfour p {
+  margin-bottom: 40px;
+}
+
+#rowtwo,
+#rowthree,
+#rowfour {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
+
+#rowtwo h3,
+#rowthree h3,
+#rowfour h3 {
+  font-weight: lighter;
+  letter-spacing: 0.3em;
+  padding-top: 24px;
+  margin-bottom: 40px;
+}
+/******************************rowone*************************************/
+#rowone {
+  opacity: 0.8;
+  height: 330px;
+  margin-left: 1px;
+  margin-bottom: 24px;
+}
+/******************************rowtwo*************************************/
+#rowtwo {
+  background: #333347;
+  color: white;
+  height: 566px;
+}
+
+/******************************rowthree*************************************/
+#rowthree {
+  height: 423px;
+  margin-top: 65px;
+}
+
+/******************************rowfour*************************************/
+#rowfour {
+  margin-top: 30px;
+  height: 434px;
+}
+
+/******************************Sectione*************************************/
+.sectione {
+  height: 350px;
+  width: 100%;
+  background: url("img/sando.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/******************************Sectionf*************************************/
+.sectionf {
+  height: 500px;
+  padding-top: 80px;
+}
+
+.sectionf img {
+  margin-left: 20px;
+}
+
+.sectionfimg {
+  margin-top: 100px;
+}
+
+.feast p {
+  font-weight: 300;
+  font-size: 72px;
+  letter-spacing: 1rem;
+}
+
+.feast p:nth-child(2) {
+  margin-left: 55px;
+}
+
+.feast p:nth-child(3) {
+  margin-left: 115px;
+}
+
+.feast hr {
+  height: 2px;
+  color: black;
+}
+/******************************Sectiong*************************************/
+.sectiong {
+  margin-top: 100px;
+  height: 450px;
+  width: 100%;
+  background: url("img/cooking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1.5;
+}
+
+slider {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+slider > * {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation: slide 12s infinite;
+  overflow: hidden;
+}
+
+slide:nth-child(1) {
+  left: 0%;
+  animation-delay: -1s;
+}
+
+slide:nth-child(2) {
+  animation-delay: 5s;
+}
+
+slide p {
+  text-align: center;
+  display: inline-block;
+  color: white;
+}
+
+slide div {
+  border: 1px solid white;
+  margin-top: 100px;
+}
+
+.slide {
+  height: 200px;
+  width: 550px;
+  text-align: center;
+  align-items: center;
+}
+
+.slide p:nth-child(1) {
+  font-size: 25px;
+}
+
+@keyframes slide {
+  0% {
+    left: 100%;
+    width: 100%;
+  }
+  5% {
+    left: 0%;
+  }
+  25% {
+    left: 0%;
+  }
+  30% {
+    left: -100%;
+    width: 100%;
+  }
+  30.0001% {
+    left: -100%;
+    width: 0%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
+
+/******************************Sectionh*************************************/
+.sectionh form {
+  border: 1px solid black;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.table-button {
+  margin-top: 10px;
+  background-color: #333347;
+  color: white;
+}
+
+#book {
+  font-size: 72px;
+  padding-bottom: 15px;
+  font-weight: lighter;
+}
+
+.contact {
+  border: 1px solid black;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.grey {
+  background: #f1f1f1;
+}
+
+iframe {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  height: 80px;
+  background: grey;
+  color: white;
+  padding: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  #sectiona {
+    height: 450px;
+    margin-top: 50px;
+  }
+  .rows {
+    width: 450px;
+  }
+  .table-button {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .feast p {
+    margin-top: 0px;
+    font-weight: 300;
+    font-size: 32px;
+    letter-spacing: 1rem;
+    margin-left: 50px;
+  }
+  .sectionfimg {
+    margin-top: 0px;
+  }
+  .sectionfimg img:nth-child(3) {
+    margin-top: 15px;
+    margin-left: 90px;
+  }
+  .rows {
+    width: 350px;
+    margin: 10px;
+  }
+  .sectionf {
+    height: 250px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  /*SectionA*/
+  #sectiona {
+    height: 450px;
+    margin-top: 50px;
+  }
+  /*Sectionb*/
+  .bonp {
+    font-size: 42px;
+    letter-spacing: 1.5rem;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  .bon button {
+    margin-top: 15px;
+    background: #033b49;
+    font-size: 18px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+  }
+  #sectionb {
+    margin: 25px;
+    width: auto;
+    height: 600px;
+  }
+
+  .bon p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  #sectionb img {
+    height: 350px;
+    width: 435px;
+    padding-right: 35px;
+    padding-top: 35px;
+    margin: 0;
+  }
+  .flex {
+    display: inline-block;
+  }
+
+  /*sectionc*/
+  .sectionc {
+    margin-top: 530px;
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    background: url("img/soup.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /*sectiond*/
+  .sectiond {
+    height: 1000px;
+    padding-top: 40px;
+  }
+
+  .rows {
+    border: 1px solid black;
+    width: 450px;
+  }
+
+  #rowthree {
+    height: 423px;
+    margin-top: 35px;
+  }
+
+  /*sectione*/
+  .sectione {
+    height: 250px;
+    margin-top: 920px;
+  }
+
+  /*sectionf*/
+  .sectionf {
+    padding-top: 10px;
+    height: 450px;
+  }
+  .sectionfimg {
+    margin-top: 45px;
+  }
+  .sectionfimg img:nth-child(3) {
+    margin: 0px;
+    margin-left: 8px;
+  }
+  .feast p {
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 42px;
+    letter-spacing: 1rem;
+  }
+  .feast {
+    text-align: center;
+  }
+  slide {
+    margin-top: 10px;
+  }
+  .sectionf p:nth-child(2) {
+    text-align: center;
+  }
+
+  /*sectiong*/
+  .sectiong {
+    height: 300px;
+  }
+  .slide {
+    height: 150px;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+  }
+  .slide p:nth-child(1) {
+    font-size: 15px;
+  }
+
+  /*sectionh*/
+  #book {
+    font-size: 32px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+  }
+  .table-button {
+    margin-top: 15px;
+    background-color: #333347;
+    color: white;
+  }
+  iframe {
+    width: 450px;
+    height: 400px;
+    padding-left: 0px;
+  }
+  .contact {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  /*sectiona*/
+  #sectiona {
+    height: 200px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .container h1 {
+    font-size: 35px;
+    letter-spacing: 0.5rem;
+  }
+  /*sectionb*/
+  #sectionb {
+    margin-top: 70px;
+    width: auto;
+    height: 300px;
+  }
+  #sectionb img {
+    height: 270px;
+    width: 350px;
+  }
+  /*sectionc*/
+  .sectionc {
+    height: 200px;
+    margin-top: 700px;
+  }
+  /*sectiond*/
+  .rows {
+    border: 1px solid black;
+    width: 350px;
+  }
+  #rowone {
+    padding: 10px;
+  }
+
+  #rowtwo {
+    height: 660px;
+  }
+  #rowfour {
+    height: 450px;
+  }
+  /*sectione*/
+  .sectione {
+    height: 250px;
+    margin-top: 1020px;
+  }
+  /*sectionf*/
+  .sectionfimg img:nth-child(1) {
+    margin-left: 35px;
+  }
+  .sectionfimg img:nth-child(3) {
+    margin-top: 15px;
+    margin-left: 105px;
+  }
+  .feast {
+    margin-top: 15px;
+  }
+  .feast p {
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1rem;
+  }
+  .feast p:nth-child(1) {
+    margin-left: 0px;
+  }
+  .feast p:nth-child(2) {
+    margin-left: 25px;
+  }
+
+  .feast p:nth-child(3) {
+    margin-left: 75px;
+  }
+  iframe {
+    width: 350px;
+    height: 400px;
+    padding-left: 0px;
+  }
+  .contact {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+  }
+}
